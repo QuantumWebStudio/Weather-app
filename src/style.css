@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F6E3;
+    color: #80BCBD;
+}
+#info{
+    text-align: center;
+}
+#content{
+    margin-top: 5%;
+    border: 2px solid blue;
+    height: 500px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 15px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+}
+#contentInput{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#cityName{
+    padding: 10px 5px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+#searchCity{
+    padding: 10px;
+    background-color:transparent;
+    border:none;
+    font-size: 18px;
+}
+#searchCity:active{
+    color:white;
+}
+#cityInfo,#cityTime,#cityTemp{
+    font-size: 25px;   
+    margin-top:10px;
+}
+#imgageResult{
+    border-radius:10px ;
+    height: 150px;
+    width: 150px;
+    margin-top: 15px;
+    visibility: hidden;
+}
+#display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
